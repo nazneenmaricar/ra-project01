@@ -1,4 +1,6 @@
-*{margin: 0;
+*{
+  box-sizing: border-box;
+  margin: 0;
   padding: 0;}
 
 .flex {display: flex;}
@@ -10,54 +12,95 @@
 .just-cont-around {justify-content: space-around;}
 .flex-end {justify-content: flex-end;}
 
-.banner-image {
-             background-image: linear-gradient( rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("images/banner-girl.png"),url( "images/flower-bkgd.jpg");
-             height: 80vh;
-             background-position: bottom center;
-             background-size: contain 20vh cover;
-             background-repeat: no-repeat;
-}
+.logo {position: fixed;
+        background-color: white;
+        width: 100%;}
 
-.logo {height: 10vh;}
+.banner-image {
+               background-image: linear-gradient( rgba(0,0,0,0.2),rgba(0,0,0,0.3)), url("images/banner-girl.png"),url( "images/flower-bkgd.jpg");
+               height: 80vh;
+               background-position: center, bottom, center;
+               background-size: contain, 40vh, cover;
+               background-repeat: no-repeat;}
+
+.border-top {border-top: 1px solid #d7d7d7;}
+
+.logo {
+        height: 13vh;}
+
+.aloha-logo { position: relative;
+              right: 10%;
+              padding: 15px;}
+
+.cart-logo { position: relative;
+            left: 1%;
+            padding: 20px; }
+
 .text-center {text-align: center;}
 
+.text-orange {color: #e2574c;}
+
 .signup-img {
- background: url("images/wave-bkgd.jpg") center bottom no-repeat;
- /*background-size: cover;*/
- height: 30vh;
-}
+            /*background-image: linear-gradient(rgba(0,0,0,0.5));*/
+            background: url("images/wave-bkgd.jpg");
+            background-position: bottom, center;
+            background-repeat: no-repeat;
+            background-size: cover;}
 
-
-form {width:30%;
-     border-radius: 10px;
+form {width: 30%;
+     border-radius: 50px;
      background-color:white;
-     padding: 10px;
+     padding: 2px;
      margin: auto;}
 
-.emailtext {width: 40%;}
 
-.buttom { background-color: #3CBC8D;}
+.emailfield {
+              padding-left: 10px;
+              color: #969696;
+              width: 70%;
+              border-style: none;
+              height: 20px;
+              border-radius: 50px;}
 
-@font-face {font-family: PlayfairDisplay-Bold;
-           src: url(PlayfairDisplay-Bold.otf);}
+.button {
+          color: white;
+          background-color: #e2574c;
+          height: 20px;
+          width: 20px;
+          border-radius: 50px;
+          border-style: none;
+          flex-grow: 1;}
 
-@font-face {font-family: PlayfairDisplay-BoldItalic;
-           src: url(PlayfairDisplay-BoldItalic.otf);}
+.padding{ padding: 30px;}
 
-@font-face {font-family: PlayfairDisplay-Italic;
-           src: url(PlayfairDisplay-talic.otf);}
+.footer {background: #242424;}
 
-@font-face {font-family: PlayfairDisplay-Regular;
-           src: url(PlayfairDisplay-Regular.otf);}
+.text-white {color: white;}
 
-@font-face {font-family: Raleway-Light;
-           src: url(Raleway-Light.ttf);}
+.fa {color: white;}
 
-@font-face {font-family: Raleway-LightItalic;
-           src: url(Raleway-LightItalic.ttf);}
+.bottom-padding{padding-bottom: 30px;}
 
-@font-face {font-family: Raleway-Medium;
-           src: url(Raleway-Medium.ttf);}
+@font-face {font-family: "PlayfairDisplay-Bold";
+           src: url("PlayfairDisplay-Bold.otf");}
 
-@font-face {font-family: Raleway-MediumItalic;
-           src: url(Raleway-MEdiumITalic.ttf);}
+@font-face {font-family: "PlayfairDisplay-BoldItalic";
+           src: url("PlayfairDisplay-BoldItalic.otf");}
+
+@font-face {font-family: "PlayfairDisplay-Italic";
+           src: url("PlayfairDisplay-talic.otf");}
+
+@font-face {font-family: "PlayfairDisplay-Regular";
+           src: url("PlayfairDisplay-Regular.otf");}
+
+@font-face {font-family: "Raleway-Light";
+           src: url("Raleway-Light.ttf");}
+
+@font-face {font-family: "Raleway-LightItalic";
+           src: url("Raleway-LightItalic.ttf");}
+
+@font-face {font-family: "Raleway-Medium";
+           src: url("Raleway-Medium.ttf");}
+
+@font-face {font-family: "Raleway-MediumItalic";
+           src: url("Raleway-MEdiumITalic.ttf");}
