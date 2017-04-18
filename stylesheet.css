@@ -1,0 +1,63 @@
+*{margin: 0;
+  padding: 0;}
+
+.flex {display: flex;}
+.just-cont-cent {justify-content: center;}
+.just-cont-between {justify-content: space-between;}
+.dir-col {flex-direction: column;}
+.dir-row {flex-direction: row;}
+.flex-wrap {flex-wrap: wrap;}
+.just-cont-around {justify-content: space-around;}
+.flex-end {justify-content: flex-end;}
+
+.banner-image {
+             background-image: linear-gradient( rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("images/banner-girl.png"),url( "images/flower-bkgd.jpg");
+             height: 80vh;
+             background-position: bottom center;
+             background-size: contain 20vh cover;
+             background-repeat: no-repeat;
+}
+
+.logo {height: 10vh;}
+.text-center {text-align: center;}
+
+.signup-img {
+ background: url("images/wave-bkgd.jpg") center bottom no-repeat;
+ /*background-size: cover;*/
+ height: 30vh;
+}
+
+
+form {width:30%;
+     border-radius: 10px;
+     background-color:white;
+     padding: 10px;
+     margin: auto;}
+
+.emailtext {width: 40%;}
+
+.buttom { background-color: #3CBC8D;}
+
+@font-face {font-family: PlayfairDisplay-Bold;
+           src: url(PlayfairDisplay-Bold.otf);}
+
+@font-face {font-family: PlayfairDisplay-BoldItalic;
+           src: url(PlayfairDisplay-BoldItalic.otf);}
+
+@font-face {font-family: PlayfairDisplay-Italic;
+           src: url(PlayfairDisplay-talic.otf);}
+
+@font-face {font-family: PlayfairDisplay-Regular;
+           src: url(PlayfairDisplay-Regular.otf);}
+
+@font-face {font-family: Raleway-Light;
+           src: url(Raleway-Light.ttf);}
+
+@font-face {font-family: Raleway-LightItalic;
+           src: url(Raleway-LightItalic.ttf);}
+
+@font-face {font-family: Raleway-Medium;
+           src: url(Raleway-Medium.ttf);}
+
+@font-face {font-family: Raleway-MediumItalic;
+           src: url(Raleway-MEdiumITalic.ttf);}
