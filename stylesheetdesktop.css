@@ -233,25 +233,6 @@ form {width: 30%;
 
 
 
-/* Media setting for mobile (max-width being 600px) */
-
-@media screen and (max-width: 600px) {
-
-.footer-mobile {}
-
-}
-/* Media setting for tablet (min-width being 600px) */
-
-/* Media for the desktop  (min-width being 1240px) */
-
-@media screen and (max-width: 600px) {
-  .dir-row-desktop { flex-direction: row;}
-  .just-cont-around-desktop {justify-content: space-around;}
-  .flex-grow-1-desktop { flex-grow: 1;}
-}
-
-
-
 
 /*
 .carousel-cell {display: block;}

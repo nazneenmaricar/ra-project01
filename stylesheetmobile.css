@@ -247,23 +247,26 @@ form {width: 30%;
 
 /* Media setting for mobile (max-width being 600px) */
 
-@media screen and (max-width: 600px) {
-
-  .dir-col-mobile{ flex-direction: column;}
-
-
-  .carousel-cell-mobile {width: 100%;}
-  .flex-grow-1-mobile {flex-grow: 1;}
-
-
-  .hide-social-mobile {visibility: hidden;}
-
+@media screen and (min-width: 600px) {
+  .carousel-cell {width: 50%;}
+  .social-display { visibility: visible;}
+  .aloha-logo {order: 1;}
+  .cart-logo {order: 3}
+  .nav {order: 2;}
+  .footer { flex-direction: row;
+            justify-content: space-between;
+            padding: 30px;}
 }
-/* Media setting for tablet (min-width being 600px) */
 
 /* Media for the desktop  (min-width being 1240px) */
 
-@media screen and (max-width: 600px) {
-  .dir-row-desktop { flex-direction: row;}
-  .just-cont-around-desktop {justify-content: space-around;}
+@media screen and (min-width: 1240px) {
+  .carousel-cell {width: 25%;}
+  .social-diaplay { visibility: visible;}
+  .aloha-logo {order: 1;}
+  .cart-logo {order: 3}
+  .nav {order: 2;}
+  .footer { flex-direction: row;
+            justify-content: space-between;
+            padding: 30px;}
 }
